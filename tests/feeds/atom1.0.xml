@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Game Development Stack Exchange</title>
+    <link rel="self" href="http://gamedev.stackexchange.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="http://gamedev.stackexchange.com/questions" type="text/html" />
+    <subtitle>most recent 30 from gamedev.stackexchange.com</subtitle>
+    <updated>2017-03-12T18:41:16Z</updated>
+    <id>http://gamedev.stackexchange.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138541</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">How to select multiple frames from a sprite sheet in unity</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="spritesheet" />
+        <author>
+            <name>jonathan connery</name>
+            <uri>http://gamedev.stackexchange.com/users/98744</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138541/how-to-select-multiple-frames-from-a-sprite-sheet-in-unity" />
+        <published>2017-03-12T16:16:38Z</published>
+        <updated>2017-03-12T16:16:38Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have a sprite sheet and cannot figure out how to select multiple frames in unity 5.5 I am watching a tutorial and it doesn&#39;t say how to do it. Is there a button I have to press while clicking or is it having to change some settings?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138536</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">How can you exit a game, when you hit your enemy?</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="java" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="eclipse" />
+        <author>
+            <name>Kenneth</name>
+            <uri>http://gamedev.stackexchange.com/users/98760</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138536/how-can-you-exit-a-game-when-you-hit-your-enemy" />
+        <published>2017-03-12T14:05:31Z</published>
+        <updated>2017-03-12T14:05:31Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have a game where you are going to dogde the enemy&#39;s. So i want to do so if you hit the enemy, the game exits. How can i do that?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138535</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">Creating a tilted map from sattalite images</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="maps" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="image" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="tiled" />
+        <author>
+            <name>Ras</name>
+            <uri>http://gamedev.stackexchange.com/users/98759</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138535/creating-a-tilted-map-from-sattalite-images" />
+        <published>2017-03-12T14:00:51Z</published>
+        <updated>2017-03-12T14:00:51Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am trying to create a game similar to Pokemon Go but instead of using Google maps with a few gradients and a skybox i would use some sort of an algorithm to create a 2d tiled map. I found that you can create custom Google maps where you can specify the color of streets and forests. But is there a better way to do this other then sampling the average color of an area and then selecting a tile based on the color? Has anyone done this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138533</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">1</re:rank>
+        <title type="text">Having the same camera in all scenes</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+        <author>
+            <name>LiziPizi</name>
+            <uri>http://gamedev.stackexchange.com/users/90716</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138533/having-the-same-camera-in-all-scenes" />
+        <published>2017-03-12T12:19:56Z</published>
+        <updated>2017-03-12T12:45:17Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have 100 scenes, each scene has a camera, but I want only the camera from scene 1 to exist in each scene that I appear in.&lt;/p&gt;
+
+&lt;p&gt;I use the function DontDestroyOnLoad() to make the camera exist in each scene but I always find my self with another camera that I don&#39;t want. &lt;/p&gt;
+
+&lt;p&gt;Any ideas? thank you in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138532</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">-1</re:rank>
+        <title type="text">How to display a text in the impact point position</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+        <author>
+            <name>stighy</name>
+            <uri>http://gamedev.stackexchange.com/users/2494</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138532/how-to-display-a-text-in-the-impact-point-position" />
+        <published>2017-03-12T10:52:22Z</published>
+        <updated>2017-03-12T13:12:33Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;In my 3d game, i would like to display a text &#39;near&#39; the impact point of a bullet. 
+I think i&#39;m having problems setting properly text position. 
+This is my code.
+The script is attached to an object Canvas.
+position is the Vector3 impact position.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GameObject obj = new GameObject ();
+Text _text = obj.AddComponent&amp;lt;Text&amp;gt; ();
+
+_text.transform.position = position;
+_text.text = message;
+_text.fontSize = startSize;
+_text.color = color;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;m pretty sure i&#39;ve to convert from a world space to a &#39;user interface&#39; space.
+Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138530</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">Unity Array Index Is Out Of Range</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="c#" />
+        <author>
+            <name>user6668201</name>
+            <uri>http://gamedev.stackexchange.com/users/93682</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138530/unity-array-index-is-out-of-range" />
+        <published>2017-03-12T09:37:45Z</published>
+        <updated>2017-03-12T13:31:52Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I just tried the script from the official unity documentation here     &lt;a href=&quot;https://docs.unity3d.com/ScriptReference/RaycastHit-triangleIndex.html&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://docs.unity3d.com/ScriptReference/RaycastHit-triangleIndex.html&lt;/a&gt; , the script is working at some point : &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.stack.imgur.com/mtRKR.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/mtRKR.png&quot; alt=&quot;Working 1&quot;&gt;&lt;/a&gt;       &lt;/p&gt;
+
+&lt;p&gt;But unity throw error &quot;Array index is out of range&quot; more often than successful click if i click at random place in 1 gameobject ( Cylinder ) :      &lt;/p&gt;
+
+&lt;p&gt;[ i replay the game and do 5 click , see the error count at the debugger ]   &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.stack.imgur.com/PU0Yb.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/PU0Yb.png&quot; alt=&quot;Error 1&quot;&gt;&lt;/a&gt;   &lt;/p&gt;
+
+&lt;p&gt;This is my script ( not important it is almost same with the documentation , but i just put it , and i removed some part to make it shorter) :      &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    RaycastHit thehit;
+    if (Input.GetMouseButtonDown (0) &amp;amp;&amp;amp; methodoneenabled == true) {
+        Ray theray = Camera.main.ScreenPointToRay (Input.mousePosition);
+
+        if (Physics.Raycast (theray, out thehit)) {
+            Debug.Log (&quot;raycast work&quot;);
+            if (thehit.collider != null) {
+                string thedebug =  &quot;Hit : &quot; +   thehit.collider.gameObject.name + &quot; &quot;;
+
+                 MeshCollider themeshhittwo = thehit.collider.gameObject.GetComponent&amp;lt;MeshCollider&amp;gt; ();
+                if (themeshhittwo == null) {
+                    Debug.Log (&quot; | themeshhittwo == null ! | &quot;);
+                } else {
+
+                    Debug.Log (&quot; | &quot; + thehit.triangleIndex + &quot; | &quot;);
+
+                    Mesh mesh = themeshhittwo.sharedMesh;
+                    Vector3[] vertices = mesh.vertices;
+                    int[] triangles = mesh.triangles;
+                    Vector3 p0 = vertices [triangles [thehit.triangleIndex * 3 + 0]];
+                    Vector3 p1 = vertices [triangles [thehit.triangleIndex * 3 + 1]];
+                    Vector3 p2 = vertices [triangles [thehit.triangleIndex * 3 + 2]];
+                    Transform hitTransform = thehit.collider.transform;
+                    p0 = hitTransform.TransformPoint (p0);
+                    p1 = hitTransform.TransformPoint (p1);
+                    p2 = hitTransform.TransformPoint (p2);
+                    Debug.Log (&quot; | &quot; + p0 + &quot; ; &quot; + p1 + &quot; ; &quot; + p2 + &quot; | &quot;);
+                    Debug.DrawLine (p0, p1);
+                    Debug.DrawLine (p1, p2);
+                    Debug.DrawLine (p2, p0);
+               }
+            }
+        }
+    }    
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;My script can be run so tell me if i missed some part when copying and pasting .   &lt;/p&gt;
+
+&lt;p&gt;Can anyone tell me what is the wrong part and the cause of the error at the script ? -,- though the script is official script ....   &lt;/p&gt;
+
+&lt;p&gt;Edit : the script i shared is located at CameraScript.Update()&lt;br&gt;
+Edit : the error is located at &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    Vector3 p0 = vertices [triangles [thehit.triangleIndex * 3 + 0]];      
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but mostly will available at here too        &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    Vector3 p1 = vertices [triangles [thehit.triangleIndex * 3 + 1]];
+    Vector3 p2 = vertices [triangles [thehit.triangleIndex * 3 + 2]];
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138524</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">7</re:rank>
+        <title type="text">Why do my trees reduce my performance so much?</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="performance" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="terrain" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="tree" />
+        <author>
+            <name>Matthew Inglis</name>
+            <uri>http://gamedev.stackexchange.com/users/72278</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138524/why-do-my-trees-reduce-my-performance-so-much" />
+        <published>2017-03-12T07:40:20Z</published>
+        <updated>2017-03-12T09:00:17Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m making a low poly stylized kind of game. &lt;/p&gt;
+
+&lt;p&gt;I have a terrain with some water and I want lots and lots of trees. &lt;/p&gt;
+
+&lt;p&gt;I have 10,000 trees at the moment (mass place). &lt;/p&gt;
+
+&lt;p&gt;Each tree is no more than 200 tris so they aren&#39;t too taxing.&lt;/p&gt;
+
+&lt;p&gt;The main problem is, there are lakes, and the lakes are quite large, so you can&#39;t actually see any trees on the other side of the lake, and that looks really bad, especially when you walk there and trees suddenly appear. &lt;/p&gt;
+
+&lt;p&gt;To fix this, I have to increase the tree distance so that you can see a decent amount of trees on the other side of the lake. &lt;/p&gt;
+
+&lt;p&gt;But that reduces performance to 40-50fps, and there is hardly anything else in the game yet (I&#39;m using a GTX 1080).&lt;/p&gt;
+
+&lt;p&gt;What can I do to make my game run faster with more trees?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138523</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">How to add slowmotion effect in libgdx&gt;</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="libgdx" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="box2d" />
+        <author>
+            <name>noobprogrammer</name>
+            <uri>http://gamedev.stackexchange.com/users/90509</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138523/how-to-add-slowmotion-effect-in-libgdx" />
+        <published>2017-03-12T07:29:25Z</published>
+        <updated>2017-03-12T07:29:25Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I want to add slow motion effect with a collision as a trigger. So I want to have an effective way to trigger a slowmotion effect on bodies as well as sprites that can be caled in the update method. Can anyone please help me with this or provide a link as to where I can find the answer?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138521</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">1</re:rank>
+        <title type="text">Level up increases to stats in rpg games? [on hold]</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="game-design" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="rpg" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="character" />
+        <author>
+            <name>James</name>
+            <uri>http://gamedev.stackexchange.com/users/73230</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138521/level-up-increases-to-stats-in-rpg-games" />
+        <published>2017-03-12T07:20:34Z</published>
+        <updated>2017-03-12T14:40:00Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have decided on the stats being vitality, strength, intelligence, speed and endurance. &lt;/p&gt;
+
+&lt;p&gt;While HP and MP are decided by vitality, both physical attack and defence are derived from strength. &lt;/p&gt;
+
+&lt;p&gt;Intelligence decides both magic attack and magic deffense while speed changes how fast the character is and endurance increases things like equip load burden. &lt;/p&gt;
+
+&lt;p&gt;In rpgs I have played different characters depending on how the designer wanted them to feel (i.e. a muscular brute may have a higher strength but lower intelligence) the character may have higher stats in a certain area. &lt;/p&gt;
+
+&lt;p&gt;While I can understand that I do not understand how I should structure stat increases that happen when leveling up. For a test character I set all of their stats equal to 10 (I decided to start all characters with a base 50 stat total for now) the characters stats should move up anywhere from 0 to lets say 9 at most when leveling up. &lt;/p&gt;
+
+&lt;p&gt;So what is a way to decide which stats go up and by how much when the character levels?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138520</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">Unity using &quot;as&quot; vs &quot;GetComponent&lt;&gt;()&quot;</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="c#" />
+        <author>
+            <name>user6668201</name>
+            <uri>http://gamedev.stackexchange.com/users/93682</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138520/unity-using-as-vs-getcomponent" />
+        <published>2017-03-12T07:11:22Z</published>
+        <updated>2017-03-12T11:17:33Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Hello im new to unity and im learning raycast right now , after checking the documentation here &lt;a href=&quot;https://docs.unity3d.com/ScriptReference/RaycastHit-triangleIndex.html&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://docs.unity3d.com/ScriptReference/RaycastHit-triangleIndex.html&lt;/a&gt; , i got something that&#39;s confusing me , what is the difference between :   &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; MeshCollider themeshhit = thehit.collider as MeshCollider;
+ //
+ if (themeshhit == null) {
+ Debug.Log (&quot; | themeshhit == null ! | &quot;);
+ }   
+ //    
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and :      &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; MeshCollider themeshhittwo =  thehit.collider.gameObject.GetComponent&amp;lt;MeshCollider&amp;gt; ();
+ //
+ if (themeshhittwo == null) {
+ Debug.Log (&quot; | themeshhittwo == null ! | &quot;);
+ } 
+ //  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Both method is working correctly , but i want to know what is the difference between them , and i also want to know which one is better if comparing against speed , compatibility , and ability .    &lt;/p&gt;
+
+&lt;p&gt;Edit : variable thehit is look similar to this    &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; RaycastHit thehit;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138517</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">1</re:rank>
+        <title type="text">Render an mesh topmost</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="c#" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="rendering" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="sharpdx" />
+        <author>
+            <name>Gomi Odabaşıoğlu</name>
+            <uri>http://gamedev.stackexchange.com/users/91381</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138517/render-an-mesh-topmost" />
+        <published>2017-03-12T03:09:46Z</published>
+        <updated>2017-03-12T17:50:48Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I can render anything 3d with SharpDX. However, my mind is mixed what should I do to render a mesh topmost. (Example: menu and all things behind). How can I render something front of the all other meshes even I do many transforms rotations etc.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138511</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">1</re:rank>
+        <title type="text">Sampled texture renders dark</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="directx" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="directx11" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="hlsl" />
+        <author>
+            <name>Ben</name>
+            <uri>http://gamedev.stackexchange.com/users/98746</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138511/sampled-texture-renders-dark" />
+        <published>2017-03-11T23:56:40Z</published>
+        <updated>2017-03-12T10:28:49Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m taking a texture from a shared texture handle and rendering it on the screen. I do this by creating a simple mesh that covers screen space, and then sampling the texture like so&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;float4 main(PixelInput pixelInput) : SV_TARGET
+{
+    return sourceTexture.Sample(textureSamplerState, pixelInput.uv);        
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, the texture on the screen appears &lt;strong&gt;significantly&lt;/strong&gt; darker than the source texture. I suspect this is because the type of the texture from which I am sampling is DXGI_FORMAT_R8G8B8A8_UNORM_SRGB but my back buffer is DXGI_FORMAT_B8G8R8A8_UNORM. For technical reasons, I am unable to change the format of either.&lt;/p&gt;
+
+&lt;p&gt;I tried the following conversion to linear color space&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    float4 sRGBA = sourceTexture.Sample(textureSamplerState, pixelInput.uv);
+    float3 sRGB = float3(sRGBA.x, sRGBA.y, sRGBA.z);
+    float3 RGB = sRGB * (sRGB * (sRGB * 0.305306011 + 0.682171111) + 0.012522878);
+    return float4(RGB, sRGBA.w);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But this seemed to make no difference at all (which I found surprising in and of itself). &lt;/p&gt;
+
+&lt;p&gt;There are no other shader effects or interesting pieces being applied.&lt;/p&gt;
+
+&lt;p&gt;What here might cause the effect of the darker rendering?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks in advanced, let me know if there is any additional interesting information!&lt;/em&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138341</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">3</re:rank>
+        <title type="text">Create a series of points round a globe (Polar to Cartesian) C++</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="vector" />
+        <author>
+            <name>RNewell122</name>
+            <uri>http://gamedev.stackexchange.com/users/77452</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138341/create-a-series-of-points-round-a-globe-polar-to-cartesian-c" />
+        <published>2017-03-08T01:08:44Z</published>
+        <updated>2017-03-12T08:18:24Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am trying to create a series of waypoints for my globe planet, in a little simulation I&#39;m doing, and I&#39;m trying to use polar to cartesian coordinates, I learnt this formula off its wikipedia page. Though I still don&#39;t quite understand it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Spherical_coordinate_system&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://en.wikipedia.org/wiki/Spherical_coordinate_system&lt;/a&gt;&lt;br&gt;
+Attempt 1; This is the image of my first attempt, I do not want to cluster the points near the poles, the poles are also at the completely wrong point, I will supply my code later on. But also I do not want to put points too close to the poles, as they are not in use, and due to camera gimbal locking, there is no point me going too far close to the north or south pole in my program.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.stack.imgur.com/uOT5r.jpg&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/uOT5r.jpg&quot; alt=&quot;This is the image of my first attempt, I do not want to cluster the points near the poles, &quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Attempt 2: Now I know how to create a single line, and the code I use for this is provided below. I sort of figured this out by just testing out different values and seeing how it came about. 
+&lt;a href=&quot;https://i.stack.imgur.com/vwbam.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/vwbam.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;&lt;a href=&quot;https://i.stack.imgur.com/5cxXj.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/5cxXj.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Now what I want to do to this, I think as the way I wish to construct it, is to get the vector of each of those points, and rotate them round the centre of the planet which in this example is (0,0,0)
+&lt;a href=&quot;https://i.stack.imgur.com/5OdOG.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/5OdOG.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/a&gt;
+I want to create a single line of longitude per pas, so I can number the points 0-50 on each line, that will allow me to use it as a connected grid,lets say 0-50 going upwards, so that if i start at point 1 which would be the first point near the south pole, and I want to go to the next row I would add 50 to get to 51 (which would be the point right of it) or take 50 to get the point left of it), and so on and so forth, this will allow me to easily join waypoints for pathfinding setup. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.gyazo.com/bebe351c44ac95295774c2a6285af73a.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I made another attempt in the link [ABOVE], where I try and make a nested for loop and change the latitude per step, but it does not get the desired result, I have even swapped the values of lat and longitude around in the code and the coordinates are the same.&lt;/p&gt;
+
+&lt;p&gt;Latitude = should be the angle from east to west.
+Longitude = should be the angle north to south.&lt;/p&gt;
+
+&lt;p&gt;To do this I think but I am not sure, I assume I will have to store a temporary value of each of those points, and then create a new vector from them, by rotating their vectors around the origin of the planet (0,0,0) and then creating a new set of these points at the temporary vectors. &lt;/p&gt;
+
+&lt;p&gt;Does anybody have an idea how to help me solve my problem, as Image 4 is the best explanation I can think of showing my problem to explain what I am trying to achieve.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/138324</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">1</re:rank>
+        <title type="text">LibGdx animation sequence</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="android" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="libgdx" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="animation" />
+        <author>
+            <name>user1572522</name>
+            <uri>http://gamedev.stackexchange.com/users/41151</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/138324/libgdx-animation-sequence" />
+        <published>2017-03-07T18:02:40Z</published>
+        <updated>2017-03-12T15:09:07Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;In my game the character movement animations work fine
+but now I&#39;m trying to do a sequence of programmatic animations,
+for an enemy character, and it&#39;s proving to be a pain.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m just doing it on Android.&lt;/p&gt;
+
+&lt;p&gt;I have the enemy character doing a walking animation till
+it reaches and end position, then I want it to do a three frame
+throw animation.  It&#39;s walk animation is fine.&lt;/p&gt;
+
+&lt;p&gt;Since I only want to do the throw animation frames once, I tried to use
+&lt;code&gt;Animation.PlayMode.NORMAL&lt;/code&gt;, and try to use &lt;code&gt;isAnimationFinished()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;I also tried to get the frame number using &lt;code&gt;getKeyFrameIndex()&lt;/code&gt;
+to try to detect when it showed the last frame.&lt;/p&gt;
+
+&lt;p&gt;But in both cases, when it reaches the end position, either I just
+see a flash of one of the throwing frames, or nothing at all,
+and it says it&#39;s &quot;finished&quot; with the animation, using one of the above
+ways to test it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;objectBatch.draw(
+    animation.getKeyFrame(throwingSkeletonObject.fStateTime),
+    throwingSkeletonObject.position.x,  // x
+    throwingSkeletonObject.position.y,  // y
+    1,      // width
+    1);     // height
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;m using the &lt;code&gt;fStateTime&lt;/code&gt; that was passed into the Object from the
+&lt;code&gt;update()&lt;/code&gt; of the Object.  For the walking animation I use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; animation.setPlayMode(Animation.PlayMode.LOOP);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and for the throw animation:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; animation.setPlayMode(Animation.PlayMode.NORMAL);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The frameDuration for the walk animation is 0.7f and for the throw 0.3f.&lt;/p&gt;
+
+&lt;p&gt;So what do I need to do to be able to actually see
+all the frames of the throw animation, and then be able to
+tell when that&#39;s &quot;finished&quot;, so I can go back to the walk
+animation going the other way or whatever?&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve tried lots of different combinations of things, including using
+a slower throw frameDuration, and nothing seems to really work.&lt;/p&gt;
+
+&lt;p&gt;Eventually I want to try to get the Boss animations going
+and those are much more complicated, so I want to get
+this fairly simple sequence to work.&lt;/p&gt;
+
+&lt;p&gt;UPDATE:&lt;/p&gt;
+
+&lt;p&gt;In the &lt;code&gt;update()&lt;/code&gt; I&#39;m doing:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;throwingSkeletonObject.fStateTime += fDeltaTime;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The game is 2D, and I&#39;m not using scene2D.&lt;/p&gt;
+
+&lt;p&gt;UPDATE  SOLVED?:&lt;/p&gt;
+
+&lt;p&gt;I wrote a smaller test app in hopes of replicating the problem
+but it worked pretty well.  When it did the throw animation I reset the
+StateTime back to zero, so as a test, I commented that out so it used the
+same StateTime as the walking animation and it only showed one
+frame of the throwing animation, so I think that was the problem.
+But I&#39;m not sure about the throwing animation &quot;end&quot; test, I&#39;m hoping
+that that will also work now.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/137834</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">FPS Player Camera Rotation using Touch</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="camera" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="rotation" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="multiplayer" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="input" />
+        <author>
+            <name>Darshan Soni</name>
+            <uri>http://gamedev.stackexchange.com/users/79192</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/137834/fps-player-camera-rotation-using-touch" />
+        <published>2017-02-24T05:47:49Z</published>
+        <updated>2017-03-12T09:06:05Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am developing an FPS Offline Multiplayer Game.&lt;/p&gt;
+
+&lt;p&gt;In my game the player rotates using mouse input.&lt;/p&gt;
+
+&lt;p&gt;I want to rotate using Touch input.Touch to Swipe screen and player can rotate or Camera will be same.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This is my MouseLook Script&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class FPSMouseLook : MonoBehaviour {
+
+public enum RotationAxes{ MouseXAndY, MouseX, MouseY }
+public RotationAxes axes = RotationAxes.MouseXAndY;
+public float sensitivity = 4;
+public float aimSensitivity = 2;
+
+[HideInInspector]
+public float sensitivityX = 15;
+[HideInInspector]
+public float sensitivityY = 15;
+//float minimumX = -360;
+//float maximumX = 360;
+
+public float minimumY = -80;
+public float maximumY = 80;
+
+float rotationY = 0;
+
+
+[HideInInspector]
+public float currentSensitivity;
+
+
+void Update (){
+
+        if (Time.timeScale &amp;lt; 0.01f)
+            return;
+        if (axes == RotationAxes.MouseXAndY) {
+            float rotationX = transform.localEulerAngles.y + Input.GetAxis (&quot;Mouse X&quot;) * sensitivityX;
+
+            rotationY += Input.GetAxis (&quot;Mouse Y&quot;) * sensitivityY;
+            rotationY = Mathf.Clamp (rotationY, minimumY, maximumY);
+
+            transform.localEulerAngles = new Vector3 (-rotationY, rotationX, 0);
+        } else if (axes == RotationAxes.MouseX) {
+            transform.Rotate (0, Input.GetAxis (&quot;Mouse X&quot;) * sensitivityX, 0);
+        } else {
+            rotationY += Input.GetAxis (&quot;Mouse Y&quot;) * sensitivityY;
+            rotationY = Mathf.Clamp (rotationY, minimumY, maximumY);
+
+            transform.localEulerAngles = new Vector3 (-rotationY, transform.localEulerAngles.y, 0);
+        }
+
+
+        sensitivityX = currentSensitivity;
+        sensitivityY = currentSensitivity;
+
+}
+
+public void Recoil(float amount){
+    rotationY += amount;
+}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I want to convert this into Touch input when touch to screen and swipe the finger then rotate player.&lt;/p&gt;
+
+&lt;p&gt;I tried doing this but it&#39;s didn&#39;t work for me. if anyone knows how to use this script based on Touch Input then it&#39;s really helpful to me. Thank in Advance&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/135659</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">Draw UI from two VR cameras</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="c#" />
+        <author>
+            <name>Mohammad Faizan Khan</name>
+            <uri>http://gamedev.stackexchange.com/users/70315</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/135659/draw-ui-from-two-vr-cameras" />
+        <published>2017-01-11T15:46:35Z</published>
+        <updated>2017-03-12T14:41:52Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have a third party package that is for mobile VR. it consist of two cameras that giving me the feel of VR Look. I have designe a user interface which i want to show from my both VR cameras but the problem both camera showing single UI. My UI not duplicating for each camera instead its only showing single UI as image depicted. How can i duplicate My UI so that it show from both VR cams&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.stack.imgur.com/xQdxh.jpg&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/xQdxh.jpg&quot; alt=&quot;enter image description here&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/130284</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">1</re:rank>
+        <title type="text">Incrementally processing large number of entitites in an entity-component system</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="libgdx" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="entity-system" />
+        <author>
+            <name>Max</name>
+            <uri>http://gamedev.stackexchange.com/users/41116</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/130284/incrementally-processing-large-number-of-entitites-in-an-entity-component-system" />
+        <published>2016-09-21T15:39:06Z</published>
+        <updated>2017-03-12T08:21:34Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;LibGDX/Ashley has a class &lt;a href=&quot;http://libgdx.badlogicgames.com/ashley/docs/com/badlogic/ashley/systems/IntervalIteratingSystem.html&quot; rel=&quot;nofollow&quot;&gt;IntervalIteratingSystem&lt;/a&gt; that allows you to process all entities in a particular family every &lt;em&gt;X&lt;/em&gt; milliseconds. But if you have a lot of entities to process, it might be a bad idea to do all that at once. For example, if you want to process 10,000 entities once every 10 seconds, you might not actually want to wait 10 seconds, and then process all the entities -- you&#39;d want to &quot;spread it out&quot; over many frames. Perhaps every 100ms you process 100 entities, cycling through them all.&lt;/p&gt;
+
+&lt;p&gt;To rephrase: I&#39;d like to process a large number of entities but spread out across multiple frames, preferably:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;providing a reasonable guarantee that all entities will processed at least once every &lt;em&gt;X&lt;/em&gt; seconds,&lt;/li&gt;
+&lt;li&gt;enabling you to keep track of how much time has passed since that entity was last processed,&lt;/li&gt;
+&lt;li&gt;with a random entity order,&lt;/li&gt;
+&lt;li&gt;all entities are processed an equal number of times.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here are my ideas so far...(some bad, some good)&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Every time an entity is added to the &lt;code&gt;Engine&lt;/code&gt;, add a Group1, Group2, or GroupN component (either randomly or sequentially), and then in my EntitySystem I cycle through the various families based on their Group#.&lt;/li&gt;
+&lt;li&gt;Every 10 seconds, add all 10,000 entities to a list, and then every 100ms, drain and process 100 from that list. (Memory-intensive, and might fall behind)&lt;/li&gt;
+&lt;li&gt;Every 100ms, iterate over all 10,000 entities, but skip 99% of them randomly (either using a PRNG or by checking their hashcode mod prime).&lt;/li&gt;
+&lt;li&gt;Maintain a list (a copy, really) of all relevant entities inside an EntitySystem using &lt;code&gt;Engine#addEntityListener()&lt;/code&gt; and then process 1% of the list every 100ms by sequentially stepping through it, and wrapping around when reaching the end. (Uses LibGDX&#39;s &lt;a href=&quot;https://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/utils/Array.html&quot; rel=&quot;nofollow&quot;&gt;unordered Array&lt;/a&gt; so removals are cheap).&lt;/li&gt;
+&lt;li&gt;Same as 4., but rely on &lt;code&gt;Engine#getEntitiesFor&lt;/code&gt; and just let Ashley handle ordering and tracking entities instead of keeping a separate list.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;At the moment, #1 and #5 seem most promising. #1 seems to meet all my requirements, but is a bit pervasive (creating and adding a bunch of components), #5 is less pervasive, but doesn&#39;t meet the requirements quite as well (#2 and #3 mostly).&lt;/p&gt;
+
+&lt;p&gt;Thoughts? Is there something better than these?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/130188</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">2</re:rank>
+        <title type="text">Can&#39;t assign animation to animation variable declared in script Unity2D</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="animation" />
+        <author>
+            <name>FShiwani</name>
+            <uri>http://gamedev.stackexchange.com/users/91073</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/130188/cant-assign-animation-to-animation-variable-declared-in-script-unity2d" />
+        <published>2016-09-19T18:27:58Z</published>
+        <updated>2017-03-12T14:33:57Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;So I&#39;m trying to have my script pause an animation when the user clicks. Here&#39;s what I have so far:&lt;/p&gt;
+
+&lt;p&gt;I defined the animation up at the top
+&lt;div class=&quot;snippet&quot; data-lang=&quot;js&quot; data-hide=&quot;false&quot; data-console=&quot;true&quot; data-babel=&quot;false&quot;&gt;
+&lt;div class=&quot;snippet-code&quot;&gt;
+&lt;pre class=&quot;snippet-code-js lang-js prettyprint-override&quot;&gt;&lt;code&gt;public Animation anim;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;and then further down,&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&quot;snippet&quot; data-lang=&quot;js&quot; data-hide=&quot;false&quot; data-console=&quot;true&quot; data-babel=&quot;false&quot;&gt;
+&lt;div class=&quot;snippet-code&quot;&gt;
+&lt;pre class=&quot;snippet-code-js lang-js prettyprint-override&quot;&gt;&lt;code&gt;	void Update () {
+        if (Input.GetMouseButtonDown(0))
+        {
+            anim[&quot;myAnimation&quot;].speed = 0.0f;
+        }
+	
+	}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Code gives no error, however in Unity I have a GameController object to which this script is attached to. The gamecontroller object has a vacant field into which I drop my animation to. The issue is that when I try and drag and drop my animation or try to place it into that field, nothing happens, I keep getting the error down at the bottom saying that &quot;The variable anim of GameController has not been assigned.&quot; How do I go about assigning myAnimation to the variable anim?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.stack.imgur.com/zGfpa.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/zGfpa.png&quot; alt=&quot;Issue&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;When I try and drag and drop my animation file to this, nothing happens. This is under the GameController script which I assigned to a GameController object.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/129305</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">Sending position to .net server unity</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="networking" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="client-server" />
+        <author>
+            <name>أيمن تليلي</name>
+            <uri>http://gamedev.stackexchange.com/users/90753</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/129305/sending-position-to-net-server-unity" />
+        <published>2016-09-01T16:04:08Z</published>
+        <updated>2017-03-12T11:21:40Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;i&#39;m working on multiplayer game , witch i created a custom c# server using TCPListner.&lt;/p&gt;
+
+&lt;p&gt;i need help on the side of if a player connect to the server he will send he&#39;s current position every time he&#39;ll change the position.
+and in the server side i want to server to broadcast the position of every player to the other.&lt;/p&gt;
+
+&lt;p&gt;i didnt figure how to do it, anyone can help me?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/128836</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">Unity Online Multiplayer</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="multiplayer" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="online" />
+        <author>
+            <name>AJ123</name>
+            <uri>http://gamedev.stackexchange.com/users/82509</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/128836/unity-online-multiplayer" />
+        <published>2016-08-24T08:41:29Z</published>
+        <updated>2017-03-12T08:59:52Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have searched this on the internet, but I didn&#39;t get any clear answers. My question is - Can I implement an online multiplayer functionality in Unity personal edition? Also without spending any money.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/124492</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">2</re:rank>
+        <title type="text">How to read monogame log files on android device</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="android" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="monogame" />
+        <author>
+            <name>derBasti</name>
+            <uri>http://gamedev.stackexchange.com/users/86318</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/124492/how-to-read-monogame-log-files-on-android-device" />
+        <published>2016-06-25T19:58:37Z</published>
+        <updated>2017-03-12T16:33:57Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am working on a monogame android project where I want to log some data. First try was something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Log.Info(tag, message);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This works great when debugging in Visual Studio via the Android Device Logging-Window. But when I run the app on my mobile android device I have no idea how to view the log entries. As far as I know the logging happens in the so called CatLog, which can be viewed with some Apps. But unfortunately these apps need root access, which I think cannot be given to them on a &quot;normal&quot; android device.&lt;/p&gt;
+
+&lt;p&gt;Is there any way to either view the Logfile on my Android device or is there a better way of adding logging to my project?&lt;/p&gt;
+
+&lt;p&gt;Thanks in advance
+Nick&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/121803</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">How to remove white background from an image using LibGdx?</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="libgdx" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="filtering" />
+        <author>
+            <name>Lokanath</name>
+            <uri>http://gamedev.stackexchange.com/users/83822</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/121803/how-to-remove-white-background-from-an-image-using-libgdx" />
+        <published>2016-05-23T03:17:47Z</published>
+        <updated>2017-03-12T18:36:34Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am fairly new to game development. &lt;/p&gt;
+
+&lt;p&gt;I am developing an application(Aquarium) for windows which requires me to animate(move) fishes around the screen and user will be able to add new fishes drawn on paper and scanned into the application, I did some research and decided to use LibGDX so when user scans the image coming to the system has White background which needs to be removed I needed to know how to remove that make it transparent in LibGDX. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/117837</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">Collision between UI element and GameObject</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="collision-detection" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="gui" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="gameobject" />
+        <author>
+            <name>Weeksy</name>
+            <uri>http://gamedev.stackexchange.com/users/80198</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/117837/collision-between-ui-element-and-gameobject" />
+        <published>2016-03-07T13:25:50Z</published>
+        <updated>2017-03-12T10:21:34Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;When I first started to develop in Unity I followed the Unity Tutorial for the Space Shooter 2D game and used the knowledge from that to create something myself. Looking at it now it may not have been the best idea.&lt;/p&gt;
+
+&lt;p&gt;Currently my game is 2D but in a 3D environment where the camera is top down and I am trying to figure out how I can detect a collision between a UI Image and my Player GameObject.&lt;/p&gt;
+
+&lt;p&gt;Any help will be extremely appreciated!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/117809</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">Unity3D mesh showing only black triangles</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="mesh" />
+        <author>
+            <name>Diego Consen</name>
+            <uri>http://gamedev.stackexchange.com/users/73922</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/117809/unity3d-mesh-showing-only-black-triangles" />
+        <published>2016-03-06T21:25:11Z</published>
+        <updated>2017-03-12T13:34:03Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;My mesh in the unity editor won&#39;t show the correct texture. Instead I get to see loads of black triangles. Anyone know what&#39;s wrong?&lt;a href=&quot;https://i.stack.imgur.com/3Np3x.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/3Np3x.png&quot; alt=&quot;This is what happens&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;thanks :)&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/115247</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">4</re:rank>
+        <title type="text">Using LibGDX, is it necessary to clip what I&#39;m rendering for efficiency?</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="libgdx" />
+        <author>
+            <name>Meeesh</name>
+            <uri>http://gamedev.stackexchange.com/users/62689</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/115247/using-libgdx-is-it-necessary-to-clip-what-im-rendering-for-efficiency" />
+        <published>2016-01-20T08:55:51Z</published>
+        <updated>2017-03-12T15:33:57Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;So I am working on a game, and I&#39;ve noticed that everything in the world is sent to be rendered. Of course with the camera, only some of the world is rendered.&lt;/p&gt;
+
+&lt;p&gt;Does this mean there is there any expense for when I send all those extra vertices to OpenGL that don&#39;t show up on screen? Will OpenGL/LibGDX do it automatically?&lt;/p&gt;
+
+&lt;p&gt;If I should clip it, is ScissorStack the way to go?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/109863</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">1</re:rank>
+        <title type="text">Unity Animated Player Character Rotation Glitch</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="unity" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="camera" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="rotation" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="mecanim" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="bug" />
+        <author>
+            <name>BadmintonCat</name>
+            <uri>http://gamedev.stackexchange.com/users/7681</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/109863/unity-animated-player-character-rotation-glitch" />
+        <published>2015-10-17T13:36:25Z</published>
+        <updated>2017-03-12T17:33:58Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I was wondering if anyone experienced this issue in Unity with Mecanim-animated characters ...&lt;/p&gt;
+
+&lt;p&gt;I have an animated player character with a third-person camera control (Game Camera from the asset store, even though I think it isn&#39;t really related) and if the character is standing at the default y-rotation angle I can orbit around her with the camera and she will always face the same direction, as it should be.&lt;/p&gt;
+
+&lt;p&gt;But if the character stands with an arbitrary other transform y-rotation (for example 90.0001 or 180, etc.) and I orbit around the character, the character&#39;s Y rotation is ever so often randomly changed.&lt;/p&gt;
+
+&lt;p&gt;I don&#39;t know what changes the Y rotation. Game Camera doesn&#39;t touch it as long as I don&#39;t move the character so I suppose it is related to Mecanim, even though i&#39;m not sure about that either.&lt;/p&gt;
+
+&lt;p&gt;I was hoping somebody has more familiarity with this issue and know what causes this. This glitch is definitely a problem in gameplay.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/102487</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">1</re:rank>
+        <title type="text">Creating VR Headset Video</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="programming" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="graphics-programming" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="virtual-reality" />
+        <author>
+            <name>uMinded</name>
+            <uri>http://gamedev.stackexchange.com/users/67439</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/102487/creating-vr-headset-video" />
+        <published>2015-06-16T02:24:32Z</published>
+        <updated>2017-03-12T14:58:53Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;So I have a video stream of known resolution and I have a VR headset via HDMI at a known resolution. &lt;/p&gt;
+
+&lt;p&gt;Is there an existing library to create the slight fisheye and side-by-side layout for these single screen headsets? (It&#39;s a custom build, so no hardware locked API please)&lt;/p&gt;
+
+&lt;p&gt;Target: Win 7/8/10&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/69524</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">3</re:rank>
+        <title type="text">Finding out the &quot;width&quot; and &quot;height&quot; of my screen after projection added</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="c++" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="matrix" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="directx11" />
+        <author>
+            <name>Jimmyt1988</name>
+            <uri>http://gamedev.stackexchange.com/users/29726</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/69524/finding-out-the-width-and-height-of-my-screen-after-projection-added" />
+        <published>2014-01-29T12:17:18Z</published>
+        <updated>2017-03-12T09:21:34Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;In a 2d game, doing collisions with the edges of your screen is easy. Your textures are a 1:1 mapping of your screen resolution because your verities are too.. if your x position is &gt; than ( screen width / 2 ) then you have hit the edge of your screen and shouldn&#39;t be able to escape it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How do you solve the same problem once your game is in 3d coordinates?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&#39;ve tried the following but I&#39;m missing something, the output is far too large. I&#39;m expecting a number like 6.0 instead I&#39;m getting 41.0 because I&#39;m multiplying 25 or so by 1.5&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;float Window::width = 1920.0f;
+float Window::height = 1080.0f;
+
+float PlayingFrame::cameraPosition = -1.0f;
+float PlayingFrame::fov = 45;
+float PlayingFrame::defaultPlayDistance = 25.0f; // how far back my player is pushed into the frustrum... mainly for scaling.
+float PlayingFrame::defaultFrameWidth = 0.0f; // I want to know how far my scaled player can go left / right until he hits the edge of the viewable screen
+float PlayingFrame::defaultFrameHeight = 0.0f; // same as above but with top / bottom
+float PlayingFrame::nearFrustrum = 1.0f;
+
+float PlayingFrame::GetWorldSpaceHeight( float distance )
+{
+    float a = PlayingFrame::nearFrustrum + abs(PlayingFrame::cameraPosition) + distance;
+    float o = 1.0f + tan(PlayingFrame::fov * 0.5);
+    return a * o;
+}
+
+float PlayingFrame::GetWorldSpaceWidth(float distance)
+{
+    float a = PlayingFrame::nearFrustrum + abs(PlayingFrame::cameraPosition) + distance;
+    float o = 1.0f + tan(PlayingFrame::fov * 0.5);
+    return a * o;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Fyi, distance coming in as a parameter is actually set to 25.0f at the moment, I was trying to think ahead&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.stack.imgur.com/C4Nhd.jpg&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;It may help to see the actual problem I&#39;m having... I basically want 2d characters in a 3d world so I can do cool rotation things.. but I cannot figure out how to know when my character has hit the edge of the viewable screen:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=A-jcnFfLu6c&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://www.youtube.com/watch?v=A-jcnFfLu6c&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.stack.imgur.com/gVjOf.jpg&quot; alt=&quot;enter image description here&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I&#39;m going to tell this story more thoroughly:&lt;/p&gt;
+
+&lt;p&gt;I originally made a 2D game. I had vertices for my background filling up 1920 x 1200:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;const VERTEX World::vertices[ 4 ] = {
+    { -960.0f, -600.0f, 0.0f, 0.0f, 0.0f, -1.0f, 0.0f, 0.0f },    // side 1 screen coordinates centred
+    { 960.0f, -600.0f, 0.0f, 0.0f, 0.0f, -1.0f, 1.0f, 0.0f },
+    { -960.0f, 600.0f, 0.0f, 0.0f, 0.0f, -1.0f, 0.0f, 1.0f },
+    { 960.0f, 960.0f, 0.0f, 0.0f, 0.0f, -1.0f, 1.0f, 1.0f }
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I applied Orthographic projections to my vertices and obviously it came out lovely on my screen! my 1920 x 1200 texture mapped perfect to my full screen app. beautiful.&lt;/p&gt;
+
+&lt;p&gt;Same goes with all of my players and enemies etc, I had vertices like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;const VERTEX Player::vertices[ 4 ] = {
+    { -64.0f, -32.0f, 0.0f, 0.0f, 0.0f, -1.0f, 0.0f, 0.0f },    // side 1 screen coordinates centred
+    { 64.0f, -32.0f, 0.0f, 0.0f, 0.0f, -1.0f, 1.0f, 0.0f },
+    { -64.0f, 32.0f, 0.0f, 0.0f, 0.0f, -1.0f, 0.0f, 1.0f },
+    { 64.0f, 32.0f, 0.0f, 0.0f, 0.0f, -1.0f, 1.0f, 1.0f }
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;this image was 128 x 64... and so was my texture, so it mapped perfectly... it fit on the screen as if it were 1:1 mapped... spot on!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The problem&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I wanted to make my game 3D... so I now applied a &lt;strong&gt;perspective fov left hand projection&lt;/strong&gt; and a camera... rather than the orthographic projection which allowed it to be 2D:&lt;/p&gt;
+
+&lt;p&gt;I set up a camera like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;XMVECTOR vecCamPosition = XMVectorSet( 0.0f, 0.0f, PlayingFrame::cameraPosition, 0 );
+XMVECTOR vecCamLookAt = XMVectorSet( 0.0f, 0.0f, 0.0f, 0.0f );
+XMVECTOR vecCamUp = XMVectorSet( 0.0f, 1.0f, 0.0f, 0.0f );
+matView3D = XMMatrixLookAtLH( vecCamPosition, vecCamLookAt, vecCamUp );
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I set up a projection like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;matProjection = XMMatrixPerspectiveFovLH(
+    XMConvertToRadians( PlayingFrame::fov ),                              // the field of view
+    Window::width / Window::height,  // aspect ratio
+    PlayingFrame::nearFrustrum,                                                           // the near view-plane
+    100.0f );                                                        // the far view-plan
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I did not change my vertices but I added a z of 1.0f to my objects with just a simple translation... The issue (and I guess you already realise this) was that my &lt;strong&gt;textures / vertices were HUGE&lt;/strong&gt;... I either had to scale all of my objects by some &lt;em&gt;roughly correct size&lt;/em&gt; with a scaling transformation, or change my vertices (and this is what I did in the end) to something more like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;const VERTEX Player::vertices[ 4 ] = {
+    { -1.0f, -0.5f, 0.0f, 0.0f, 0.0f, -1.0f, 0.0f, 0.0f },    // side 1 screen coordinates centred
+    { 1.0f, -0.5f, 0.0f, 0.0f, 0.0f, -1.0f, 1.0f, 0.0f },
+    { -1.0f, 0.5f, 0.0f, 0.0f, 0.0f, -1.0f, 0.0f, 1.0f },
+    { 1.0f, 0.5f, 0.0f, 0.0f, 0.0f, -1.0f, 1.0f, 1.0f }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Both choices are killing me. Choice 1 meant I had to scale all of my collisions aswell, and both choice 1 and 2 meant I had to estimate how scaled they should be. so much so that my original 1920 x 1200 background I put back into orthographic projection coz I could not get it to scale well...&lt;/p&gt;
+
+&lt;p&gt;The last and most frustrating issue is that I have NO IDEA how to calculate where the borders of my screen are...&lt;/p&gt;
+
+&lt;p&gt;What is the usual approach to this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/49965</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">0</re:rank>
+        <title type="text">problem adding bumpmap to textured gluSphere in JOGL</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="java" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="textures" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="jogl" />
+        <author>
+            <name>ChocoMan</name>
+            <uri>http://gamedev.stackexchange.com/users/15791</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/49965/problem-adding-bumpmap-to-textured-glusphere-in-jogl" />
+        <published>2013-02-24T18:17:09Z</published>
+        <updated>2017-03-12T12:27:06Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I currently have one texture on a gluSphere that represents the Earth being displayed perfectly, but having trouble figuring out how to &lt;strong&gt;implement a bumpmap&lt;/strong&gt; as well. 
+The bumpmap resides in &lt;code&gt;&quot;res/planet/earth/earthbump1k.jpg&quot;.&lt;/code&gt;Here is the code I have for the regular texture:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    gl.glTranslatef(xPath, 0, yPath + zPos);
+    gl.glColor3f(1.0f, 1.0f, 1.0f); // base color for earth
+
+    earthGluSphere = glu.gluNewQuadric();
+
+    colorTexture.enable(); // enable texture
+    colorTexture.bind(); // bind texture
+
+    // draw sphere...
+    glu.gluDeleteQuadric(earthGluSphere);
+    colorTexture.disable();
+
+// texturing 
+public void loadPlanetTexture(GL2 gl)
+{
+    InputStream colorMap = null;
+
+    try
+    {
+        colorMap = new FileInputStream(&quot;res/planet/earth/earthmap1k.jpg&quot;);
+        TextureData data = TextureIO.newTextureData(colorMap, false, null);
+        colorTexture = TextureIO.newTexture(data);
+        colorTexture.getImageTexCoords();
+        colorTexture.setTexParameteri(GL2.GL_TEXTURE_MAG_FILTER, GL2.GL_LINEAR);
+        colorTexture.setTexParameteri(GL2.GL_TEXTURE_MIN_FILTER, GL2.GL_NEAREST);
+        colorMap.close();
+    }
+    catch(IOException e)
+    {
+        e.printStackTrace();
+        System.exit(1);
+    }
+    // Set material properties 
+    gl.glTexParameteri(GL2.GL_TEXTURE_2D, GL2.GL_TEXTURE_MAG_FILTER, GL2.GL_LINEAR);
+    gl.glTexParameteri(GL2.GL_TEXTURE_2D, GL2.GL_TEXTURE_MIN_FILTER, GL2.GL_NEAREST);
+
+    colorTexture.setTexParameteri(GL2.GL_TEXTURE_2D, GL2.GL_TEXTURE_WRAP_S);
+    colorTexture.setTexParameteri(GL2.GL_TEXTURE_2D, GL2.GL_TEXTURE_WRAP_T); 
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;How would I add the bumpmap as well to the same gluSphere?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com/q/8339</id>
+        <re:rank scheme="http://gamedev.stackexchange.com">3</re:rank>
+        <title type="text">How to create per-vertex normals when reusing vertex data?</title>
+            <category scheme="http://gamedev.stackexchange.com/tags" term="opengl-es" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="normals" />
+            <category scheme="http://gamedev.stackexchange.com/tags" term="vertex-arrays" />
+        <author>
+            <name>Chris Smith</name>
+            <uri>http://gamedev.stackexchange.com/users/5050</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com/questions/8339/how-to-create-per-vertex-normals-when-reusing-vertex-data" />
+        <published>2011-02-09T16:43:40Z</published>
+        <updated>2017-03-12T14:52:21Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am displaying a cube using a vertex buffer object (gl.ELEMENT_ARRAY_BUFFER). This allows me to specify vertex &lt;em&gt;indicies&lt;/em&gt;, rather than having duplicate vertexes. In the case of displaying a simple cube, this means I only need to have eight vertices total. Opposed to needing three vertices per triangle, times two triangles per face, times six faces. Sound correct so far?&lt;/p&gt;
+
+&lt;p&gt;My question is, how do I now deal with vertex attribute data such as color, texture coordinates, and normals when reusing vertices using the vertex buffer object?&lt;/p&gt;
+
+&lt;p&gt;If I am reusing the same vertex data in my indexed vertex buffer, how can I differentiate when vertex X is used as part of the cube&#39;s front face versus the cube&#39;s left face? In both cases I would like the surface normal and texture coordinates to be different. I understand I &lt;em&gt;could&lt;/em&gt; average the surface normal, however I would like to render a cube. Also, this still doesn&#39;t work for texture coordinates.&lt;/p&gt;
+
+&lt;p&gt;Is there a way to save memory using a vertex buffer object while being able to provide different vertex attribute data based on context? (Per-triangle would be idea.)&lt;/p&gt;
+
+&lt;p&gt;Or should I just duplicate each vertex for each context in which it gets rendered. (So there is a one-to-one mapping between vertex, normal, color, etc.)&lt;/p&gt;
+
+&lt;p&gt;Note: I&#39;m using OpenGL ES.&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>
