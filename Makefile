@@ -34,7 +34,7 @@ $(OBJ):	$(SRC)
 #Put all the object files in the correct directory
 	@mv *.o $(OBJ_DIR)
 
-tests: tests/tests.cpp src/XMLParser.cpp src/XMLNode.cpp
+tests: tests/tests.cpp src/XMLParser.cpp src/XMLNode.cpp src/Feeds/RssFeed.cpp
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^ $(LDLIBS)
 	
 
