@@ -4,6 +4,8 @@
 #include <iostream>
 #include <typeinfo>
 #include "../src/XMLParser.h"
+#include "../src/XMLNode.h"
+#include "../src/Feeds/RssFeed.h"
 
 namespace {
     const char *file = "./tests/feeds/rss2.0.xml";
@@ -32,7 +34,25 @@ TEST_CASE("XML document created", "[feedParser]") {
             return true;
         };
         channelNode.iterateChildren(func);
-        
+
         REQUIRE(nodeCount == 22);
     }
+}
+
+TEST_CASE("Fill RSS2.0 object", "[rss2.0]") {
+    AcsFeedReader::XMLParser xmlParser;
+    xmlParser.Parse(file);
+
+    AcsFeedReader::XMLNode channelNode = xmlParser.findNode("channel");
+
+    AcsFeedReader::RssFeed rss{channelNode};
+    //ver se o q foi lido pelo object rss esta correcto!!
+    
+    rss.getAttr("");
+    
+    
+    
+    
+    
+
 }
