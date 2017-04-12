@@ -1,5 +1,7 @@
 #include <iostream>
 #include "XMLParser.h"
+#include "XMLNode.h"
+
 namespace AcsFeedReader {
 
     XMLParser::XMLParser() {
