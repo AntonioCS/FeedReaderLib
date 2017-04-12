@@ -3,9 +3,11 @@
 
 #include <unordered_map>
 #include <array>
+#include <string>
 #include <vector>
+#include <algorithm> //find
 #include <iostream> //using it for debuing will remove in the future
-#include "XMLNode.h"
+#include "../XMLNode.h"
 
 namespace AcsFeedReader {
 
@@ -29,11 +31,14 @@ namespace AcsFeedReader {
 
     class RssFeed {
     public:
-        RssFeed(XMLNode channel);
-        RssFeed::~RssFeed();        
+        RssFeed();
+        RssFeed(XMLNode channel);        
+        ~RssFeed();
+        
+        std::string *getAttr(const char *);
 
     private:
-        static const std::array<const char *, 11> attrs{
+        const std::array<const char *, 11> attrs{
             "title",
             "description",
             "link",
@@ -44,11 +49,14 @@ namespace AcsFeedReader {
             "managingEditor",
             "pubDate",
             "webMaster",
-            "generator"};
+            "generator"
+        };
 
         std::unordered_map<const char *, std::string> attrsValues;
         RssFeedImage image;
         std::vector<RssFeedItem> items;
+        
+        void setAttr(const char *, std::string);
     };
 
 }
