@@ -11,6 +11,21 @@
 
 namespace AcsFeedReader {
 
+        /*
+        enum class RssAttribute {
+            title,
+            description,
+            link,
+            category,
+            copyright,
+            language,
+            lastBuildDate,
+            managingEditor,
+            pubDate,
+            webMaster,
+            generator
+        };
+     */
     struct RssFeedImage {
         std::string url;
         std::string title;
@@ -32,31 +47,32 @@ namespace AcsFeedReader {
     class RssFeed {
     public:
         RssFeed();
-        RssFeed(XMLNode channel);        
+        RssFeed(XMLNode channel);
         ~RssFeed();
-        
-        std::string *getAttr(const char *);
+
+        std::string getAttr(const char *);
+        std::string getAttr(const std::string);
 
     private:
-        const std::array<const char *, 11> attrs{
-            "title",
-            "description",
-            "link",
-            "category",
-            "copyright",
-            "language",
-            "lastBuildDate",
-            "managingEditor",
-            "pubDate",
-            "webMaster",
-            "generator"
-        };
+        const std::array<std::string, 1> attrs{
+            std::string{"title"},
+            std::string{"description"},
+            std::string{"link"},
+            std::string{"category"},
+            std::string{"copyright"},
+            std::string{"language"},
+            std::string{"lastBuildDate"},
+            std::string{"managingEditor"},
+            std::string{"pubDate"},
+            std::string{"webMaster"},
+            std::string{"generator"}};
 
-        std::unordered_map<const char *, std::string> attrsValues;
+        std::unordered_map<std::string, std::string> attrsValues;
         RssFeedImage image;
         std::vector<RssFeedItem> items;
-        
+
         void setAttr(const char *, std::string);
+        void setAttr(const std::string, std::string);
     };
 
 }

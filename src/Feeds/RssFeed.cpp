@@ -13,12 +13,8 @@ namespace AcsFeedReader {
 
             if (i != attrEnd) {
                 setAttr(*i, node.getContent());
-                //std::cout << "Attr:" << *i << " name:" << node.getName() << " Value:" << node.getContent() << '\n';
             }
-            /*
-            if (node.getName() == "title") {
-                this->title = node.getContent();
-            }*/
+            
             return true;
         };
 
@@ -28,18 +24,24 @@ namespace AcsFeedReader {
     RssFeed::~RssFeed() {
     }
 
-    std::string *RssFeed::getAttr(const char *key) {
+    std::string RssFeed::getAttr(const char *key) {
+        return getAttr(std::string{key});
+    }
+
+    std::string RssFeed::getAttr(const std::string key) {
         auto search = attrsValues.find(key);
 
         if (search != attrsValues.end()) {
-            return &(search->second);
+            return search->second;
         }
         
-        return nullptr;
-
+        return std::string{};
     }
 
     void RssFeed::setAttr(const char *key, std::string value) {
+        setAttr(std::string{key}, value);
+    }
+    void RssFeed::setAttr(const std::string key, std::string value) {
         attrsValues[key] = value;
     }
 }
