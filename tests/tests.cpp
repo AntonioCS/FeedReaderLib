@@ -1,4 +1,4 @@
-#define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
+#define CATCH_CONFIG_MAIN 
 #include "catch.hpp"
 #include <string>
 #include <iostream>
@@ -44,15 +44,7 @@ TEST_CASE("Fill RSS2.0 object", "[rss2.0]") {
     xmlParser.Parse(file);
 
     AcsFeedReader::XMLNode channelNode = xmlParser.findNode("channel");
-
     AcsFeedReader::RssFeed rss{channelNode};
-    //ver se o q foi lido pelo object rss esta correcto!!
-    
-    rss.getAttr("");
-    
-    
-    
-    
-    
 
+    REQUIRE(rss.getAttr("title").compare("FeedForAll Sample Feed") == 0);
 }
