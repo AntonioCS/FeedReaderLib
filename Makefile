@@ -37,6 +37,8 @@ $(OBJ):	$(SRC)
 tests: tests/tests.cpp src/XMLParser.cpp src/XMLNode.cpp src/Feeds/RssFeed.cpp
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^ $(LDLIBS)
 	
+#test-main: test-main.cpp
+#	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^ $(LDLIBS)
 
 clean:
 	rm -rf $(TARGET) $(OBJ_DIR)/*	
