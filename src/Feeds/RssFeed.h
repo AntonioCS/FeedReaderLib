@@ -54,7 +54,7 @@ namespace AcsFeedReader {
         std::string getAttr(const std::string);
 
     private:
-        const std::array<std::string, 1> attrs{
+        const std::array<std::string, 11> attrs{
             std::string{"title"},
             std::string{"description"},
             std::string{"link"},
@@ -65,7 +65,8 @@ namespace AcsFeedReader {
             std::string{"managingEditor"},
             std::string{"pubDate"},
             std::string{"webMaster"},
-            std::string{"generator"}};
+            std::string{"generator"}
+        };
 
         std::unordered_map<std::string, std::string> attrsValues;
         RssFeedImage image;
