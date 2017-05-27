@@ -13,12 +13,20 @@ HEADERS=$(shell find $(SRC_DIR) -name '*.h')
 #https://www.gnu.org/software/make/manual/html_node/Text-Functions.html
 OBJ=$(addprefix $(OBJ_DIR)/,$(notdir $(patsubst %.cpp, %.o, $(SRC))))
 
+TESTS_TARGET=tests
+TESTS_DIR=./tests
+TESTS_OBJ_DIR=$(TESTS_DIR)/obj
+TESTS_MAIN_SRC=$(TESTS_DIR)/test-main.cpp
+TESTS_MAIN_OBJ=$(TESTS_OBJ_DIR)/test-main.o
+TESTS_SRC=$(TESTS_DIR)/tests.cpp $(SRC)
+TESTS_OBJ=$(addprefix $(TESTS_OBJ_DIR)/,$(notdir $(patsubst %.cpp, %.o, $(TESTS_SRC))))
+
+
 #http://stackoverflow.com/a/1951111/8715
+#‘$(@D)’ -  The directory part of the file name of the target, with the trailing slash removed. 
+# If the value of ‘$@’ is dir/foo.o then ‘$(@D)’ is dir. This value is . if ‘$@’ does not contain a slash. 
 dir_guard=@mkdir -p $(@D)
 
-.PHONY: clean
-
-all: $(TARGET)
 
 $(TARGET): $(OBJ)
 	$(dir_guard)
@@ -34,11 +42,23 @@ $(OBJ):	$(SRC)
 #Put all the object files in the correct directory
 	@mv *.o $(OBJ_DIR)
 
-tests: tests/tests.cpp src/XMLParser.cpp src/XMLNode.cpp src/Feeds/RssFeed.cpp
-	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^ $(LDLIBS)
-	
-#test-main: test-main.cpp
-#	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^ $(LDLIBS)
+$(TESTS_TARGET): $(TESTS_OBJ)
+	$(dir_guard)
+#tests/tests.cpp src/XMLParser.cpp src/XMLNode.cpp src/Feeds/RssFeed.cpp
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(TESTS_MAIN_OBJ) $? $(LDLIBS)
+
+$(TESTS_OBJ): $(TESTS_SRC)
+	$(dir_guard)
+	$(CC) $(CFLAGS) $(LDFLAGS) -c $^ $(LDLIBS)
+	@mv *.o $(TESTS_OBJ_DIR)
+
+test_main: tests/test-main.cpp
+	$(CC) $(CFLAGS) -c $?
+	@mv *.o $(TESTS_OBJ_DIR)
 
 clean:
-	rm -rf $(TARGET) $(OBJ_DIR)/*	
+	rm -rf $(TARGET) $(OBJ_DIR)/*
+
+.PHONY: clean tests
+
+all: $(TARGET)
