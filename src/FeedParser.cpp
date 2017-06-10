@@ -1,4 +1,5 @@
 #include "FeedParser.h"
+#include "Feeds/RssFeed.h"
 
 namespace AcsFeedReader {
 
