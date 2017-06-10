@@ -6,21 +6,49 @@
 #include <iostream>
 #include <libxml/xmlmemory.h>
 #include <libxml/parser.h>
+#include <iostream>
 
 namespace AcsFeedReader {
 
     class XMLNode {
+        xmlNodePtr nptr = nullptr;
     public:
+        class Iterator;
+        /*
+        class Iterator {
+            XMLNode &mEle;
+        public:
 
+            Iterator(XMLNode ele) : mEle(ele) {
+                std::cout << "CHAMADO!!!\n";
+            }
+
+            Iterator &operator++() {
+                mEle = mEle.getNext();
+                return *this;
+            }
+
+            XMLNode &operator*() {
+                return mEle;
+            }
+
+            bool operator==(const Iterator &other) {
+                return (mEle == other.mEle);
+            }
+
+            bool operator!=(const Iterator &other) {
+                return !this->operator==(other);
+
+            }
+        };
+*/
+        
         XMLNode(const xmlNodePtr n) : nptr(n) {
         }
-/*
-        XMLNode(XMLNode &&orig) {
-            
-        }
-        */
-        //copy constructte
-        XMLNode(const XMLNode &orig) : nptr(orig.nptr) {           
+
+        //copy constructor
+
+        XMLNode(const XMLNode &orig) : nptr(orig.nptr) {
         }
 
         ~XMLNode() {
@@ -55,9 +83,15 @@ namespace AcsFeedReader {
             return {(nptr->next)};
         }
 
-    private:
-        xmlNodePtr nptr = nullptr;
+        Iterator begin() {
+            return Iterator(getChildrenNode());
+        }
+
+        Iterator end() {
+            return Iterator(nullptr);
+        }
     };
+
 }
 #endif /* XMLNODE_H */
 
