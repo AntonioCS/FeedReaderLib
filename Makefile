@@ -18,7 +18,8 @@ TESTS_DIR=./tests
 TESTS_OBJ_DIR=$(TESTS_DIR)/obj
 TESTS_MAIN_SRC=$(TESTS_DIR)/test-main.cpp
 TESTS_MAIN_OBJ=$(TESTS_OBJ_DIR)/test-main.o
-TESTS_SRC=$(TESTS_DIR)/tests.cpp $(SRC)
+#TESTS_SRC=$(TESTS_DIR)/tests.cpp $(SRC)
+TESTS_SRC=$(shell find $(TESTS_DIR) -name '*Test.cpp') $(SRC)
 TESTS_OBJ=$(addprefix $(TESTS_OBJ_DIR)/,$(notdir $(patsubst %.cpp, %.o, $(TESTS_SRC))))
 
 
